@@ -42,7 +42,7 @@ function Projectcard() {
       <Card sx={{ minHeight: '380px', width: 600  }}>
         <CardCover>
           <img
-           src = {firstimage}
+           src = {firstimage} alt = ""
           />
         </CardCover>
         <CardCover
@@ -76,7 +76,7 @@ function Projectcard() {
       <Card sx={{ minHeight: '380px', width: 600 }}>
         <CardCover>
           <img
-           src = {secondimage}
+           src = {secondimage} alt = ""
           />
         </CardCover>
         <CardCover
@@ -110,7 +110,7 @@ function Projectcard() {
       <Card sx={{ minHeight: '380px', width: 600 }}>
         <CardCover>
           <img
-           src = {thirdimage}
+           src = {thirdimage} alt = ""
           />
         </CardCover>
         <CardCover
@@ -143,7 +143,7 @@ function Projectcard() {
       <Card sx={{ minHeight: '500px', width: 200 }}>
         <CardCover>
           <img
-           src = {fourthimage}
+           src = {fourthimage} alt = ""
           />
         </CardCover>
         <CardCover
@@ -225,7 +225,7 @@ function App() {
     window.location = "https://dazzlegemm.com/" ;
   }
   function liveThree(){
-    window.location = "https://google.com/"
+    window.location = "https://google.com/" ;
   }
 
   return (
@@ -335,13 +335,13 @@ function App() {
   <div className = "stickynav">
     
     <Button onClick = {scrollContact}>Contact Me</Button>
-  <a onClick={scrollTop}> 01 Top</a>
-  <a onClick={scrollAbout}>02 About Me</a>
-  <a onClick = {scrollMyservices}>03 My Services</a>
-  <a onClick={scrollSkills}>04 Skills</a>
-  <a onClick={scrollFunfacts}>05 Fun Facts</a>
-  <a onClick={scrollexperiences}>06 Experiences</a>
-  <a onClick = {scrollprojects}>07 Projects</a>
+  <a onClick={scrollTop}> 01 Top</a> // eslint-disable-line no-use-before-define
+  <a onClick={scrollAbout}>02 About Me</a> // eslint-disable-line no-use-before-define
+  <a onClick = {scrollMyservices}>03 My Services</a> // eslint-disable-line no-use-before-define
+  <a onClick={scrollSkills}>04 Skills</a> // eslint-disable-line no-use-before-define
+  <a onClick={scrollFunfacts}>05 Fun Facts</a> // eslint-disable-line no-use-before-define
+  <a onClick={scrollexperiences}>06 Experiences</a> // eslint-disable-line no-use-before-define
+  <a onClick = {scrollprojects}>07 Projects</a> // eslint-disable-line no-use-before-define
   <a>08 How I Work</a>
   <a>09 Blogs</a>
 
