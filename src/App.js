@@ -2,16 +2,16 @@
 import './App.css';
 import Button from '@mui/material/Button';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import Box from '@mui/material/Box';
+
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
-import { FaCode  } from "react-icons/fa";
-import { LiaCodeSolid } from "react-icons/lia";
+
+
 import Sideline from './sideline';
 
-import { DefaultContext } from 'react-icons/lib';
+
 import  DrawerDefault  from './drawer';
-import { DrawerDefaulttwo } from './anotherdraw';
+
 import video from "./assets/logo.mp4" ;
 import { IoPlayForwardOutline } from "react-icons/io5";
 
@@ -225,7 +225,7 @@ function App() {
     window.location = "https://dazzlegemm.com/" ;
   }
   function liveThree(){
-    window.location = "https://google.com/" ;
+    window.location = "https://google.com/"
   }
 
   return (
