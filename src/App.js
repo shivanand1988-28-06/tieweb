@@ -224,9 +224,7 @@ function App() {
   function livetwo (){
     window.location = "https://dazzlegemm.com/" ;
   }
-  function liveThree(){
-    window.location = "https://google.com/" ;
-  }
+
 
   return (
     <>
@@ -335,18 +333,22 @@ function App() {
   <div className = "stickynav">
     
     <Button onClick = {scrollContact}>Contact Me</Button>
-  <a onClick={scrollTop}> 01 Top</a> // eslint-disable-line no-use-before-define
-  <a onClick={scrollAbout}>02 About Me</a> // eslint-disable-line no-use-before-define
-  <a onClick = {scrollMyservices}>03 My Services</a> // eslint-disable-line no-use-before-define
-  <a onClick={scrollSkills}>04 Skills</a> // eslint-disable-line no-use-before-define
-  <a onClick={scrollFunfacts}>05 Fun Facts</a> // eslint-disable-line no-use-before-define
-  <a onClick={scrollexperiences}>06 Experiences</a> // eslint-disable-line no-use-before-define
-  <a onClick = {scrollprojects}>07 Projects</a> // eslint-disable-line no-use-before-define
-  <a>08 How I Work</a>
-  <a>09 Blogs</a>
+    
+     <Button onClick={scrollTop}> 01 Top</Button>
+     
+     
+     <Button onClick={scrollAbout}  > About Me</Button> 
+     
+    <Button onClick = {scrollMyservices}> My Services</Button>  
+    <Button onClick={scrollSkills} > Skills</Button> 
+  <Button onClick={scrollFunfacts} > Fun Facts</Button> 
+  <Button onClick={scrollexperiences} > Experiences</Button> 
+  <Button onClick = {scrollprojects} className = "probut" > Projects</Button> 
+  <Button > How I Work</Button> 
+  <Button > Blogs</Button> 
 
 </div>
-      
+
       
 <div className = "about">
 
